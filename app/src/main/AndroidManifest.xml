@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <uses-sdk tools:overrideLibrary="com.google.firebase.auth, com.google.firebase.auth.internal, com.google.firebase.auth.api.fallback, com.google.android.gms.auth.api.signin, com.google.android.gms.identity, com.google.android.libraries.identity.googleid" />
+    <uses-sdk tools:overrideLibrary="com.google.firebase.auth, com.google.firebase.auth.internal, com.google.firebase.auth.api.fallback, com.google.firebase.firestore, com.google.firebase.firestore.ktx, com.google.firebase.ai, com.google.firebase.appcheck, com.google.firebase.appcheck.recaptcha, com.google.firebase, com.google.firebase.components, com.google.firebase.common, com.google.android.gms.auth.api.signin, com.google.android.gms.identity, com.google.android.libraries.identity.googleid" />
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
