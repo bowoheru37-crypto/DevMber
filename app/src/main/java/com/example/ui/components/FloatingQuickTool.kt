@@ -137,7 +137,7 @@ fun FloatingQuickTool(
                 shape = RoundedCornerShape(20.dp),
                 colors = CardDefaults.cardColors(containerColor = Color(0xFF131B2A)),
                 modifier = Modifier
-                    .width(320.dp)
+                    .fillMaxWidth(0.92f)
                     .shadow(16.dp, RoundedCornerShape(20.dp))
                     .border(
                         1.5.dp,

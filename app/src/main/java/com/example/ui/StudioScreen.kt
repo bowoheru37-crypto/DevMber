@@ -63,44 +63,44 @@ fun StudioScreen(viewModel: StudioViewModel) {
                     Text(
                         text = "Studio AI Engine",
                         fontWeight = FontWeight.Bold,
-                        fontSize = 18.sp,
+                        fontSize = 17.sp,
                         color = Color.White
                     )
                 },
                 actions = {
                     IconButton(
                         onClick = { viewModel.openExportModal("GAME_LEVEL") },
-                        modifier = Modifier.testTag("top_bar_export_btn")
+                        modifier = Modifier.size(40.dp).testTag("top_bar_export_btn")
                     ) {
                         Icon(
                             imageVector = Icons.Default.CloudDownload,
                             contentDescription = "Export Package",
                             tint = Color(0xFF00F0FF),
-                            modifier = Modifier.size(22.dp)
+                            modifier = Modifier.size(20.dp)
                         )
                     }
 
                     IconButton(
                         onClick = { viewModel.openImportModal("GAME_LEVEL") },
-                        modifier = Modifier.testTag("top_bar_import_btn")
+                        modifier = Modifier.size(40.dp).testTag("top_bar_import_btn")
                     ) {
                         Icon(
                             imageVector = Icons.Default.CloudUpload,
                             contentDescription = "Import Package",
                             tint = Color(0xFF06D6A0),
-                            modifier = Modifier.size(22.dp)
+                            modifier = Modifier.size(20.dp)
                         )
                     }
 
                     IconButton(
                         onClick = { viewModel.toggleFloatingWidget() },
-                        modifier = Modifier.testTag("top_bar_toggle_copilot")
+                        modifier = Modifier.size(40.dp).testTag("top_bar_toggle_copilot")
                     ) {
                         Icon(
                             imageVector = Icons.Default.AutoAwesome,
                             contentDescription = "AI Copilot",
                             tint = Color(0xFFFFB703),
-                            modifier = Modifier.size(24.dp)
+                            modifier = Modifier.size(22.dp)
                         )
                     }
                 },
